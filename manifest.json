@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Whatsapp web DarkMode",
+  "version": "0.1.0",
+  "description": "Activate dark mode on whatsapp web",
+ "icons": {
+    "16": "images.png",
+    "32": "images.png",
+    "48": "images.png",
+    "128": "images.png"
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://web.whatsapp.com/*"]
+  }]
+ 
+}
