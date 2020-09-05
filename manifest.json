@@ -12,7 +12,7 @@
   },
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["https://web.whatsapp.com/*"]
+    "matches": ["https://www.quora.com/*"]
   }]
  
 }
